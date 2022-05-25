@@ -46,8 +46,32 @@ public class AuthRepository {
                         Log.e("Nipun", e.getLocalizedMessage());
                         firebaseRequestCallback.onError(e.getLocalizedMessage());
                     });
+        } catch (Exception e) {
+            firebaseRequestCallback.onError(context.getString(R.string.something_went_wrong));
         }
-        catch (Exception e) {
+    }
+
+    public void loginUser(String email, String password, FirebaseRequestCallback firebaseRequestCallback) {
+        firebaseRequestCallback.onLoading();
+        try {
+            mAuth.signInWithEmailAndPassword(email, password).addOnSuccessListener(authResult -> {
+                FirebaseUser fUser = authResult.getUser();
+                if (fUser.isEmailVerified()) {
+                    firebaseRequestCallback.onSuccess("Ok");
+                } else {
+                    fUser.sendEmailVerification().addOnSuccessListener(result -> {
+                        firebaseRequestCallback.onSuccess(context.getString(R.string.email_verification_sent, email));
+                        mAuth.signOut();
+                    }).addOnFailureListener(e -> {
+                        firebaseRequestCallback.onError(context.getString(R.string.error_send_email));
+                    });
+                }
+            })
+                    .addOnFailureListener(e -> {
+                        Log.e("Nipun", e.getLocalizedMessage());
+                        firebaseRequestCallback.onError(e.getLocalizedMessage());
+                    });
+        } catch (Exception e) {
             firebaseRequestCallback.onError(context.getString(R.string.something_went_wrong));
         }
     }

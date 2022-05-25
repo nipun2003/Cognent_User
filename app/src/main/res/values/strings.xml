@@ -16,7 +16,7 @@
     <string name="register">Register</string>
     <string name="already_have_an_account">Already have an account?</string>
 
-<!--    Validate Options Strings-->
+    <!--    Validate Options Strings-->
     <string name="valid_name">Name must be at least 3 character long</string>
     <string name="valid_phone">Phone number is not valid.</string>
     <string name="valid_email">Email is not valid</string>

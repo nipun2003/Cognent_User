@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,123 +8,141 @@
     android:paddingTop="@dimen/big_spacing"
     tools:context=".fragments.LoginFragment">
 
-    <RelativeLayout
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:elevation="@dimen/extra_small_spacing"
-        android:background="@drawable/container_bg"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:paddingTop="@dimen/big_spacing"
-        app:layout_constraintTop_toBottomOf="@id/guideline2">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:gravity="start"
-            android:orientation="vertical"
-            android:padding="@dimen/medium_spacing">
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/container_bg"
+            android:elevation="@dimen/extra_small_spacing"
+            android:paddingTop="@dimen/big_spacing"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/guideline2">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/login_to_get_started"
-                android:textSize="@dimen/medium_text"
-                android:textStyle="bold" />
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/medium_spacing" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/experience_all_new_app"
-                android:textSize="@dimen/small_2_text" />
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/extra_big_spacing"/>
-            <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/etEmailLayout"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/edittext_bg"
-                app:boxBackgroundColor="@color/transparent">
+                android:layout_alignParentTop="true"
+                android:gravity="start"
+                android:orientation="vertical"
+                android:padding="@dimen/medium_spacing">
 
-                <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/etEmail"
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/login_to_get_started"
+                    android:textSize="@dimen/medium_text"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/medium_spacing" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/experience_all_new_app"
+                    android:textSize="@dimen/small_2_text" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/extra_big_spacing" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/etEmailLayout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:drawableStart="@drawable/ic_email"
-                    android:drawablePadding="@dimen/medium_spacing"
-                    android:hint="@string/e_mail_id"
-                    android:inputType="textEmailAddress"/>
-            </com.google.android.material.textfield.TextInputLayout>
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/big_spacing"/>
-            <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/etPasswordLayout"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:boxBackgroundColor="@color/transparent"
-                app:passwordToggleEnabled="true">
+                    android:background="@drawable/edittext_bg"
+                    app:boxBackgroundColor="@color/transparent">
 
-                <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/etPassword"
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableStart="@drawable/ic_email"
+                        android:drawablePadding="@dimen/medium_spacing"
+                        android:hint="@string/e_mail_id"
+                        android:inputType="textEmailAddress" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/big_spacing" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/etPasswordLayout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:drawablePadding="@dimen/medium_spacing"
-                    android:drawableStart="@drawable/ic_lock"
-                    android:hint="@string/password"
-                    android:inputType="textPassword"/>
-            </com.google.android.material.textfield.TextInputLayout>
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/big_spacing"/>
-            <TextView
+                    app:boxBackgroundColor="@color/transparent"
+                    app:passwordToggleEnabled="true">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableStart="@drawable/ic_lock"
+                        android:drawablePadding="@dimen/medium_spacing"
+                        android:hint="@string/password"
+                        android:inputType="textPassword" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/big_spacing" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/small_spacing"
+                    android:text="@string/use_mobile_number"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/primary_color"
+                    android:textSize="@dimen/small_2_text" />
+            </LinearLayout>
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/use_mobile_number"
-                android:textSize="@dimen/small_2_text"
-                android:textColor="@color/primary_color"
-                android:textAlignment="textEnd"
-                android:layout_marginEnd="@dimen/small_spacing"/>
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
+                android:layout_alignParentBottom="true"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/gray_6" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/login"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/small_spacing"
+                    android:background="@drawable/button_bg"
+                    android:padding="@dimen/extra_small_spacing"
+                    android:text="@string/login"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/medium_text"
+                    app:layout_constraintBottom_toBottomOf="parent" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_alignParentBottom="true"
-            android:gravity="center">
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.1" />
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/gray_6"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/login"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/small_spacing"
-            android:background="@drawable/button_bg"
-            android:padding="@dimen/extra_small_spacing"
-            android:text="@string/login"
-            android:textColor="@color/white"
-            android:textSize="@dimen/medium_text"
-            app:layout_constraintBottom_toBottomOf="parent" />
-        </LinearLayout>
-    </RelativeLayout>
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline2"
+    <ProgressBar
+        android:id="@+id/progress_bar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.1" />
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_gravity="center"
+        android:visibility="gone" />
+</FrameLayout>

@@ -1,0 +1,97 @@
+{
+  "project_info": {
+    "project_number": "1002366633495",
+    "project_id": "active-state-music",
+    "storage_bucket": "active-state-music.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1002366633495:android:0bd07b98eb0ac82477fe52",
+        "android_client_info": {
+          "package_name": "com.example.pokedexapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1002366633495-0aitipse4bv3rheg7j99k4rv77863m8e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUv8eQOSIjdj4XDHJWd_wqTJZP4HCJvFY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1002366633495-0aitipse4bv3rheg7j99k4rv77863m8e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1002366633495:android:7d56df0b4fdbc8ca77fe52",
+        "android_client_info": {
+          "package_name": "com.nipunapps.cognent_user"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1002366633495-0aitipse4bv3rheg7j99k4rv77863m8e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUv8eQOSIjdj4XDHJWd_wqTJZP4HCJvFY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1002366633495-0aitipse4bv3rheg7j99k4rv77863m8e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1002366633495:android:ffbb538f520491d977fe52",
+        "android_client_info": {
+          "package_name": "com.nipunapps.examhelper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1002366633495-0aitipse4bv3rheg7j99k4rv77863m8e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUv8eQOSIjdj4XDHJWd_wqTJZP4HCJvFY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1002366633495-0aitipse4bv3rheg7j99k4rv77863m8e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Cognent_User</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="login_to_get_started">Log in to get started</string>
+    <string name="experience_all_new_app">Experience the all new App!</string>
+    <string name="login">Login</string>
+    <string name="e_mail_id">E-mail ID</string>
+    <string name="password">Password</string>
+    <string name="use_mobile_number">Use Mobile Number</string>
+    <string name="register_in_to_get_started">Register in to get started</string>
+    <string name="name">Name</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="already_have_an_account">Already have an account?</string>
+
+<!--    Validate Options Strings-->
+    <string name="valid_name">Name must be at least 3 character long</string>
+    <string name="valid_phone">Phone number is not valid.</string>
+    <string name="valid_email">Email is not valid</string>
+    <string name="valid_password">Password must be at least 8 character long.</string>
+    <string name="password_mismatch">Password and Confirm Password is not matched.</string>
+
+    <string name="something_went_wrong">Something Went Wrong</string>
+    <string name="incorrect_credential">Incorrect credential</string>
+    <string name="no_user_found">No user found with given email</string>
+    <string name="email_verification_sent">A verification link is send to your email %s. Open the link for verification your link.</string>
+    <string name="open_link">open the link and then login to your account.</string>
+    <string name="user_already_exists">Email already exists.</string>
+    <string name="password_verification_link">Password reset link send to your email </string>
+    <string name="reset_password">Reset password</string>
+    <string name="no_login">No login user found</string>
+    <string name="failed_upload_image">Image uploading failed</string>
+    <string name="failed_update_user">User updating failed, try again</string>
+    <string name="image_uploaded">Image uploaded successfully</string>
+    <string name="change_password_text">We will send you an email with password reset link\n\nDo you want to proceed?</string>
+    <string name="logout_dialogue">Do you want to logout?</string>
+    <string name="user_detail_update">User details updated successfully</string>
+    <string name="error_creating_user">Error Creating User</string>
+    <string name="error_send_email">Error sending verification link</string>
+    <string name="error_storing_user_details">Error storing User details</string>
+</resources>

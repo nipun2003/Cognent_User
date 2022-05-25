@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="extra_small_spacing">4dp</dimen>
+    <dimen name="small_spacing">8dp</dimen>
+    <dimen name="medium_spacing">16dp</dimen>
+    <dimen name="big_spacing">24dp</dimen>
+    <dimen name="extra_big_spacing">30dp</dimen>
+
+    <dimen name="medium_text">18sp</dimen>
+    <dimen name="small_2_text">16sp</dimen>
+</resources>

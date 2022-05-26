@@ -8,4 +8,5 @@
 
     <dimen name="medium_text">18sp</dimen>
     <dimen name="small_2_text">16sp</dimen>
+    <dimen name="big_text">24sp</dimen>
 </resources>

@@ -15,6 +15,10 @@
     <string name="confirm_password">Confirm Password</string>
     <string name="register">Register</string>
     <string name="already_have_an_account">Already have an account?</string>
+    <string name="rupee_sign">\u20B9</string>
+    <string name="demo_price">\u20B9 219</string>
+    <string name="demo_actual_price"><strike>\u20B9 999</strike></string>
+    <string name="demo_price_off">78% off</string>
 
     <!--    Validate Options Strings-->
     <string name="valid_name">Name must be at least 3 character long</string>
@@ -41,4 +45,8 @@
     <string name="error_creating_user">Error Creating User</string>
     <string name="error_send_email">Error sending verification link</string>
     <string name="error_storing_user_details">Error storing User details</string>
+    <string name="product_details">product_details</string>
+    <string name="demo_product_name">Eyevy Full Rim Round, Cat-eyed Anti Glare Frame(48mm)</string>
+    <string name="add_to_cart">ADD TO CART</string>
+    <string name="buy_now">BUY NOW</string>
 </resources>

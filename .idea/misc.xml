@@ -4,12 +4,19 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Android_Project/Cognent_User/app/src/main/res/drawable/button_bg.xml" value="0.1265" />
+        <entry key="..\:/Android_Project/Cognent_User/app/src/main/res/drawable/button_card_bg.xml" value="0.142" />
         <entry key="..\:/Android_Project/Cognent_User/app/src/main/res/drawable/container_bg.xml" value="0.142" />
         <entry key="..\:/Android_Project/Cognent_User/app/src/main/res/drawable/edittext_bg.xml" value="0.142" />
         <entry key="..\:/Android_Project/Cognent_User/app/src/main/res/drawable/ic_email.xml" value="0.142" />
+        <entry key="..\:/Android_Project/Cognent_User/app/src/main/res/drawable/ic_favourite.xml" value="0.142" />
+        <entry key="..\:/Android_Project/Cognent_User/app/src/main/res/drawable/product_list_bg.xml" value="0.142" />
+        <entry key="..\:/Android_Project/Cognent_User/app/src/main/res/layout/activity_authorization.xml" value="0.25677083333333334" />
         <entry key="..\:/Android_Project/Cognent_User/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
         <entry key="..\:/Android_Project/Cognent_User/app/src/main/res/layout/fragment_login.xml" value="0.22826086956521738" />
+        <entry key="..\:/Android_Project/Cognent_User/app/src/main/res/layout/fragment_product_details.xml" value="0.25677083333333334" />
+        <entry key="..\:/Android_Project/Cognent_User/app/src/main/res/layout/fragment_product_list.xml" value="0.25677083333333334" />
         <entry key="..\:/Android_Project/Cognent_User/app/src/main/res/layout/fragment_register.xml" value="0.25677083333333334" />
+        <entry key="..\:/Android_Project/Cognent_User/app/src/main/res/layout/product_recylcler_layout.xml" value="0.25677083333333334" />
       </map>
     </option>
   </component>

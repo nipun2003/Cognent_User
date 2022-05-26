@@ -59,9 +59,9 @@ public class AuthRepository {
                 if (fUser.isEmailVerified()) {
                     firebaseRequestCallback.onSuccess("Ok");
                 } else {
+                    mAuth.signOut();
                     fUser.sendEmailVerification().addOnSuccessListener(result -> {
                         firebaseRequestCallback.onSuccess(context.getString(R.string.email_verification_sent, email));
-                        mAuth.signOut();
                     }).addOnFailureListener(e -> {
                         firebaseRequestCallback.onError(context.getString(R.string.error_send_email));
                     });
